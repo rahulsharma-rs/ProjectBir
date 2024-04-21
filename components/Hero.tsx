@@ -19,7 +19,7 @@ const Hero = () => {
                         <div className='flex-grow md:max-w-xl'>
                             <p className='text-xl font-semibold text-cyan-500'>Welcome to</p>
                             <h1 className='pt-4 pb-4 text-6xl font-bold leading-tight text-black-500 font-poppins'>Hideout Bir </h1>
-                            <p className='w-full py-2 leading-7 text-gray-500 md:w-2/3'>Looking for a tranquil setting to relax and reenergize? Look no further! HideOut Bir will offer you whatever you desire and give you the finest service possible. The finest in the neighborhood.</p>
+                            <p className='w-full py-2 leading-7 text-gray-500 md:w-2/3'>Looking for a tranquil setting to relax and reenergize? Look no further! Hideout Bir will offer you whatever you desire and give you the finest service possible. The finest in the neighborhood.</p>
                         </div>
                         <div className='content-start flex-shrink lg:-my-20 md:block w-full md:w-1/2 '>
                             <div className='react-multi-carousel-list  '>
