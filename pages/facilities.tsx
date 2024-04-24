@@ -13,7 +13,7 @@ const facilities = () => {
                 <div className='shadow h-80'>
                     <div className='relative overflow-hidden round-lg-shadow-lg h-80'>
                         <span className='box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;'>
-                            <Image src={pool} alt='hero' />
+                            <Image className='w-screen ' src={pool} alt='hero' />
 
                         </span>
                         <div className='absolute top-0 left-0 h-full w-full bg-gradient-to-r from-cyan-500 via-black to-cyan-500 opacity-40'></div>
@@ -159,6 +159,8 @@ const facilities = () => {
                 </div>
             </div>
             <Footer />
+            <div className='fixed z-9999 top-16 left-16 right-16 bottom-16 pointer-events-none'></div>
+
         </div>
     )
 }
